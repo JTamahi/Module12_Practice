@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="ctg8qiWDaX3dR6FcRVFQ">
-    <mxGraphModel>
+    <mxGraphModel dx="638" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ew02RdaPKPukmMheTgSy-9" edge="1" parent="1" source="ew02RdaPKPukmMheTgSy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="ew02RdaPKPukmMheTgSy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="110" />
+              <mxPoint x="230" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-10" connectable="0" parent="ew02RdaPKPukmMheTgSy-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Вход в систему" vertex="1">
+          <mxGeometry relative="1" x="-0.3264" y="3" as="geometry">
+            <mxPoint x="17" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-12" edge="1" parent="1" source="ew02RdaPKPukmMheTgSy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="ew02RdaPKPukmMheTgSy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="160" />
+              <mxPoint x="230" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-13" connectable="0" parent="ew02RdaPKPukmMheTgSy-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Выбор товара" vertex="1">
+          <mxGeometry relative="1" x="-0.1923" y="-4" as="geometry">
+            <mxPoint x="8" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="300" width="20" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":Система" vertex="1">
+          <mxGeometry height="300" width="100" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-16" parent="ew02RdaPKPukmMheTgSy-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-26" parent="ew02RdaPKPukmMheTgSy-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-27" edge="1" parent="ew02RdaPKPukmMheTgSy-2" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="ew02RdaPKPukmMheTgSy-26" value="Проверка&lt;div&gt;доступности&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="220" />
+              <mxPoint x="110" y="260" />
+            </Array>
+            <mxPoint x="60.00380952380952" y="219.99999999999994" as="sourcePoint" />
+            <mxPoint x="69.98" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":Склад" vertex="1">
+          <mxGeometry height="300" width="100" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":&lt;span style=&quot;line-height: 107%;&quot;&gt;Платежный шлюз&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;line-height:107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&lt;br/&gt;RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;mso-bidi-font-style:italic&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-14" edge="1" parent="1" source="ew02RdaPKPukmMheTgSy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="ew02RdaPKPukmMheTgSy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="210" />
+              <mxPoint x="190" y="210" />
+            </Array>
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-15" connectable="0" parent="ew02RdaPKPukmMheTgSy-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Добавление в карзину" vertex="1">
+          <mxGeometry relative="1" x="-0.1923" y="-4" as="geometry">
+            <mxPoint x="8" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-17" edge="1" parent="1" source="ew02RdaPKPukmMheTgSy-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="ew02RdaPKPukmMheTgSy-16" value="Подтверждение заказа">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ew02RdaPKPukmMheTgSy-18" edge="1" parent="1" source="ew02RdaPKPukmMheTgSy-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
